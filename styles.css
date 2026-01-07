@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at right, #9fb4aa 0%, #050505 45%);
+  color: #fff;
+  min-height: 100vh;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+}
+
+nav a.highlight {
+  color: #fff;
+}
+
+.account-btn {
+  background: transparent;
+  border: 1px solid #444;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.glass-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  height: 650px;
+  border-radius: 24px;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.85),
+    rgba(60, 70, 65, 0.6)
+  );
+  backdrop-filter: blur(25px);
+  padding: 80px;
+  overflow: hidden;
+}
+
+/* FLOATING DATA */
+.floating {
+  position: absolute;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.floating.left {
+  left: 40px;
+  top: 200px;
+}
+
+.floating.right {
+  right: 40px;
+  top: 160px;
+  text-align: right;
+}
+
+.floating small {
+  display: block;
+  opacity: 0.6;
+}
+
+/* HERO CONTENT */
+.hero-content {
+  max-width: 620px;
+}
+
+.pill {
+  background: rgba(255, 255, 255, 0.08);
+  border: none;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+h1 span {
+  color: #cfe0d6;
+}
+
+p {
+  color: #bbb;
+  font-size: 16px;
+  max-width: 520px;
+}
+
+/* CTA */
+.cta {
+  margin-top: 35px;
+}
+
+.primary {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 24px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.secondary {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 12px 24px;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+/* SCROLL */
+.scroll {
+  position: absolute;
+  bottom: 30px;
+  left: 40px;
+  font-size: 13px;
+  opacity: 0.6;
+}
+
+/* FOOTER */
+.partners {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 30px;
+  opacity: 0.4;
+  font-size: 14px;
+}
